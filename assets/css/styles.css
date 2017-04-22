@@ -1,0 +1,414 @@
+@import 'https://fonts.googleapis.com/css?family=Hind:300,400,500|Raleway:400,700';
+
+body {
+  font-family: 'Hind','Helvetica', 'Sans-Serif';
+  font-size: 1.8rem;
+  color: #4d4d4d;
+}
+
+.custom-header-font {
+  font-family: 'Raleway', 'Helvetica', 'Sans-Serif';
+}
+
+.navbar {
+  background-color: #fff;
+  height: 50px;
+}
+
+#topnavbar {
+  float: right;
+  background: white;
+}
+
+.navbar-brand {
+  color: #4d4d4d !important;
+  font-weight: bold;
+  font-size: 2.3rem;
+  padding: 15px 25px;
+}
+
+.navbar-nav>li>a {
+  color: #4d4d4d !important;
+  font-size: 1.8rem;
+}
+
+#introduction {
+  margin-top: 50px;
+  background-color: #fff;
+  padding-top: 160px;
+  padding-bottom: 220px;
+  width: 100%;
+}
+
+.profileimage {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #f1f1f1;
+  border-radius: 10rem;
+}
+
+.main-name {
+  color: #4d4d4d;
+  margin-bottom: 20px;
+}
+
+.designation {
+  color: #4d4d4d;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.socialicons {
+  margin-top: 30px;
+}
+
+.socialicons a {
+  margin: 0px 17px;
+  display: inline-block;
+  color: #4d4d4d;
+}
+
+.socialicons a > i {
+  font-size: 2.65rem;
+}
+
+#aboutme {
+  padding: 0 10% 70px 10%;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+#projects h3, #skills h3, #aboutme h3, #work h3, #press h3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#aboutmeintro {
+  padding-bottom: 50px;
+}
+
+#aboutmestudentcontent {
+  padding: 10px 50px;
+}
+
+#aboutmestudentcontent ul, #skills ul, #aboutme ul {
+  list-style: none;
+}
+
+#projects {
+  padding: 0 10% 70px 10%;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.projectimage {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border: 4px solid #f4f4f4;
+}
+
+.header-hr {
+  width: 15%;
+  margin: -5px auto 20px;
+  border-top: 2px solid #dedede;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+.student-header {
+  font-weight: bold;
+  font-size: 2.0rem;
+}
+
+.project-header {
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dedede;
+}
+
+.project-details {
+  font-size: 1.8rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dedede;
+}
+
+.project-item {
+  margin-bottom: 30px;
+}
+
+#skills {
+  padding: 0 10% 150px 10%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.skill-header {
+  font-size: 2.0rem;
+}
+
+#work {
+  padding: 0 10% 150px 10%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.work-item {
+  margin-bottom: 30px;
+}
+
+.work-textcontent {
+  margin-left: 30px;
+}
+
+#footer {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.twitter-icon:hover {
+  color: #00aced;
+}
+
+.facebook-icon:hover {
+  color: #3b5998;
+}
+
+.gplus-icon:hover {
+  color: #dd4b39;
+}
+
+.linkedin-icon:hover {
+  color: #007bb6;
+}
+
+.mail-icon:hover {
+  color: #dd4b39;
+}
+
+.github-icon:hover {
+  color: #000;
+}
+
+.medium-icon:hover {
+  color: #00ab6c;
+}
+
+#copyrighttext {
+  padding-top: 100px;
+  font-size: 1.4rem;
+}
+
+.nav>li>a:hover,.nav>li>a:focus {
+  background-color: #f7f7f7;
+  color: #4d4d4d;
+}
+
+.icon-bar {
+  background-color: #4d4d4d;
+  border-radius: 0;
+}
+
+.quote {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#productdesigncontent, #aboutmecontent {
+  text-align: left;
+}
+
+.project-header a {
+  color: #4d4d4d;
+}
+
+.project-header a:hover {
+  text-decoration: none;
+}
+
+
+/*
+Skills Progress Bars
+*/
+
+.progress {
+  border-radius: 0;
+  height: 27px;
+  background-color: #d6d6d6;
+  box-shadow: none;
+}
+
+.progress-bar {
+  line-height: 28px;
+  font-size: 0.9em;
+  box-shadow: none;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 1px;
+}
+
+.progress-bar-1 {
+  background-color: #490A3D;
+}
+
+.progress-bar-2 {
+  background-color: #9C034F;
+}
+
+.progress-bar-3 {
+  background-color: #BD1550;
+}
+
+.progress-bar-4 {
+  background-color: #D84636;
+}
+
+.progress-bar-5 {
+  background-color: #E97F02;
+}
+
+.progress-bar-6 {
+  background-color: #008DCB;
+}
+
+.progress-bar-7 {
+  background-color: #004358;
+}
+
+.progress-bar-8 {
+  background-color: #1F8A70;
+}
+
+.progress-bar-9 {
+  background-color: #8cbf27;
+}
+
+/*
+Header With Side lines CSS
+*/
+
+.header-with-lines {
+  position: relative;
+  text-align: center;
+}
+
+.header-with-lines span {
+  background: #f7f7f7;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+  font-weight: 700;
+}
+
+.header-with-lines:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 100%;
+}
+
+.header-with-lines:before {
+  left: 0;
+}
+
+.header-with-lines-white span{
+  background: #fff;
+  font-weight: 700;
+}
+
+/*
+Skills Image
+*/
+
+.skill-thumbnail {
+  width: 300px;
+  height: 300px;
+}
+
+.skill-gif {
+  width: 168.75px;
+
+}
+
+/* Required to hold the caption, or any closest parent selector to  .slide__caption */
+
+.project-subheading {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0.2em;
+}
+
+.project-subsection {
+  margin-bottom: 2em;
+}
+
+.project-item-heading {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.project-item-description {
+  font-size: 20px;
+  color: #afafaf;
+}
+
+.project-prototype-link {
+  margin-top: 3em;
+}
+
+.project-prototype-link a {
+  background-color: #777;
+  color: white;
+  padding: 5px 15px 3px 15px;
+  text-decoration: none;
+  margin: 1em;
+}
+
+.project-prototype-link a:hover {
+  background-color: #aaa;
+  color: white;
+  padding: 5px 15px 2px 15px;
+  text-decoration: none;
+  margin: 1em;
+}
+
+.project-end-line hr {
+  width: 70%;
+  border-top: 1px solid #b5b5b5;
+}
+
+
+#press {
+  padding: 0 10% 70px 10%;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.carousel-image img {
+  margin-bottom: 10px !important;
+}
+
+@media only screen and (min-width: 700px) {
+  .owl-carousel .carousel-image img {
+    max-height: 500px;
+    width: auto !important;
+    margin: auto;
+  }
+}
+
+.navbarcontainer {
+  padding: 0 10%;
+  width: 100%;
+}
